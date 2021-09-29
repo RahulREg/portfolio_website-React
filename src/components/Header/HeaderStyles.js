@@ -116,14 +116,15 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons 
 
 export const SocialIcons = styled.a`
+transform: translateY(-10px);
 transition: 0.3s ease;
 color: white;
-border-radius: 50px;
+border-radius: 50%;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
-    
+  transform: translateY(-10px);
+  background-color: #212d45;
+  //transform: scale(0.9);
+  cursor: pointer;  
   }
 `
